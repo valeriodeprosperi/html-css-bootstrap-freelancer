@@ -23,9 +23,15 @@
 }
 #start{
     color: white;
+    text-decoration: none;
 }
-.list-inline a{
+.list-inline li a{
   color: white;
+  text-decoration: none;
+
+}
+.list-inline li a:hover{
+  color: green;
 }
 
 .header_left{
