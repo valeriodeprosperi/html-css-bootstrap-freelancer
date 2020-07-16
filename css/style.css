@@ -44,11 +44,15 @@
   margin-top: 70px;
   padding: 70px 0;
 }
+
 .jumbo_text {
   max-width: 900px;
   padding: 0 15px;
   margin: auto;
   text-align: center;
+}
+.jumbo_text img{
+  height: 200px;
 }
 
 /* SECTIONS */
