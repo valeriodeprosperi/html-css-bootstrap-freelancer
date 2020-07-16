@@ -110,3 +110,31 @@
   color: #fff;
   padding: 20px 0;
 }
+.footer_top h3{
+color: white;
+text-align: center;
+}
+.footer_top p{
+color: white;
+}
+.footer_top ul li{
+  display: inline;
+
+}
+
+.fa-facebook, .fa-twitter-square, .fa-linkedin-in, .fa-basketball-ball {
+  font-size: 30px;
+  color: white;
+  padding: 0 10px;
+  }
+
+
+
+#start_bootstrap{
+  color: green;
+  font-size: 2rem;
+}
+
+.footer_bottom{
+  background-color: black;
+}
