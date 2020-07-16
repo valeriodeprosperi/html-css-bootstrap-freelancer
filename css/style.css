@@ -1,24 +1,64 @@
-.jumbotron{
+/* MIX */
+
+.p_top_80 {
+  padding-top: 80px;
+}
+.p_bottom_80 {
+  padding-bottom: 80px;
+}
+
+.bg_green {
+  background-color: lightgreen;
+}
+.bg_light_blue {
+  background-color: lightblue;
+}
+
+.wrapper_small {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* HEADER */
+
+/* header top */
+.header_top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 70px;
+  line-height: 70px;
+  color: #fff;
+}
+
+/* jumbo */
+.jumbo {
+  margin-top: 70px;
+  padding: 70px 0;
+}
+.jumbo_text {
+  max-width: 900px;
+  padding: 0 15px;
+  margin: auto;
   text-align: center;
 }
 
-.rounded-circle{
-  background-color: red;
+/* SECTIONS */
 
+/* portfolio */
+
+.box_portfolio {
+  height: 250px;
+  background-color: blue;
+  margin-bottom: 30px;
 }
 
-.boxes{
-  background-color: red;
-  text-align: center;
-}
-.about{
-  background-color: green;
-  text-align: center;
-}
-.contact{
-  background-color: pink;
-}
-.footer{
-  background-color: green;
-  text-align: center;
+/* FOOTER */
+
+.footer_bottom {
+  background-color: blue;
+  color: #fff;
+  padding: 20px 0;
 }

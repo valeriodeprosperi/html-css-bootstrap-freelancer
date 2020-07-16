@@ -10,98 +10,142 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   </head>
   <body>
-    <div class="container">
-      <!-- Static navbar -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Project name</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="./">Portfolio <span class="sr-only">(current)</span></a></li>
-              <li><a href="../navbar-static-top/">About</a></li>
-              <li><a href="../navbar-fixed-top/">Contact</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
-      </nav>
-
-      <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <img src="..." alt="..." class="rounded-circle">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-
-      </div>
-
-    </div>
-    <!-- /container -->
-    <main>
-    <section class="boxes">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">Portfolio</div>
-          <div class="col-xs-12 col-sm-6 col-md-4">img</div>
-          <div class="col-xs-12 col-sm-6 col-md-4">img</div>
-          <div class="col-xs-12 col-sm-6 col-md-4">img</div>
-          <div class="col-xs-12 col-sm-6 col-md-4">img</div>
-          <div class="col-xs-12 col-sm-6 col-md-4">img</div>
-          <div class="col-xs-12 col-sm-6 col-md-4">img</div>
-
-        </div>
-      </div>
-    </section>
-
-    <section class="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">About</div>
-          <div class="col-xs-12 col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-          <div class="col-xs-12 col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-          <div class="col-xs-12"><button type="button" class="btn btn-outline-success">Download</button></div>
-
-        </div>
-      </div>
-    </section>
-
-    <section class="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">Contact Us</div>
-          <div class="col-xs-12">Name</div>
-          <div class="col-xs-12">Name</div>
-          <div class="col-xs-12">Name</div>
-          <div class="col-xs-12">Name</div>
-          <div class="col-xs-12"><button type="button" class="btn btn-outline-success">send</button></div>
-
-        </div>
-      </div>
-    </section>
-    </main>
-
-    <footer>
-      <section class="footer">
+    <!-- header -->
+    <header>
+      <!-- header top -->
+      <div class="header_top bg_light_blue">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-md-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-            <div class="col-xs-12 col-md-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-            <div class="col-xs-12 col-md-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-            
-            <div class="col-xs-12">copyright</div>
+            <div class="col-xs-6"> START BOOTSTRAP</div>
+            <div class="col-xs-6 text-right">
+              <!-- navigation -->
+              <nav class="visible-md visible-lg">
+                <ul class="list-inline">
+                  <li>PORTFOLIO</li>
+                  <li>ABOUT</li>
+                  <li>CONTACT</li>
 
+                </ul>
+              </nav>
+              <!-- /navigation -->
+              <!-- hamburger -->
+              <div class="visible-xs visible-sm">
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                  <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                </button>
+              </div>
+              <!-- /hamburger -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /header top -->
+      <!-- jumbotron -->
+      <div class="jumbo bg_green">
+        <div class="jumbo_text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+      </div>
+      <!-- /jumbotron -->
+    </header>
+    <!-- header -->
 
+    <!-- main -->
+    <main>
+      <!-- section portfolio -->
+      <section id="portfolio" class="p_top_80 p_bottom_80">
+        <h2 class="text-center text-uppercase">Lorem</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="box_portfolio"></div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="box_portfolio"></div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="box_portfolio"></div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="box_portfolio"></div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="box_portfolio"></div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="box_portfolio"></div>
+            </div>
           </div>
         </div>
       </section>
+      <!-- /section portfolio -->
 
+      <!-- section about -->
+      <section id="about" class="p_top_80 p_bottom_80 bg_green">
+        <h2 class="text-center text-uppercase">About</h2>
+        <div class="wrapper_small">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12 col-md-6">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+              <div class="col-xs-12 col-md-6">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+              <div class="col-xs-12 text-center">
+                <button type="button" class="btn btn-default btn-lg">
+                  <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section about -->
+
+      <!-- section contact -->
+      <section id="contact" class="p_top_80 p_bottom_80">
+        <h2 class="text-center text-uppercase">Contact me</h2>
+        <div class="wrapper_small">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /section contact -->
+    </main>
+    <!-- /main -->
+
+    <!-- footer -->
+    <footer class="text-center">
+      <!-- footer top -->
+      <div class="footer_top bg_light_blue p_top_80 p_bottom_80">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div class="col-xs-12 col-md-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div class="col-xs-12 col-md-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /footer top -->
+
+      <!-- footer bottom -->
+      <div class="footer_bottom">
+        Copyright © Your Website 2020
+      </div>
+      <!-- footer bottom -->
     </footer>
+    <!-- /footer -->
   </body>
 </html>
