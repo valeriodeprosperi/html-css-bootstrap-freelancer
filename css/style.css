@@ -59,10 +59,23 @@
   font-size: 8rem;
 }
 
+.jumbo_star{
+  color: white;
+  font-size: 30px;
+}
+.jumbo_text p{
+  color: white;
+  font-size: 2rem;
+}
+
 /* SECTIONS */
 
 /* portfolio */
-
+.porfolio_star{
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
 .box_portfolio {
   height: 250px;
   background-color: blue;
