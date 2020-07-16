@@ -78,8 +78,10 @@
 }
 .box_portfolio {
   height: 250px;
-  background-color: blue;
   margin-bottom: 30px;
+}
+.box_portfolio img{
+  height:200px;
 }
 
 /* FOOTER */
