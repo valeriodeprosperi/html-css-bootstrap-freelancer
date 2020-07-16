@@ -8,7 +8,7 @@
 }
 
 .bg_green {
-  background-color: lightgreen;
+  background-color: #19bc9c;
 }
 .bg_light_blue {
   background-color: #2c3f50;
@@ -53,6 +53,10 @@
 }
 .jumbo_text img{
   height: 200px;
+}
+.jumbo_text h1{
+  color: white;
+  font-size: 8rem;
 }
 
 /* SECTIONS */
