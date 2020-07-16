@@ -21,6 +21,12 @@
 .list-inline{
   font-size: 1.9rem;
 }
+#start{
+    color: white;
+}
+.list-inline a{
+  color: white;
+}
 
 .header_left{
   font-size: 1.9rem;
