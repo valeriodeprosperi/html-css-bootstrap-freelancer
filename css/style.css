@@ -21,6 +21,7 @@
 .list-inline{
   font-size: 1.9rem;
 }
+
 .header_left{
   font-size: 1.9rem;
 }
@@ -82,6 +83,12 @@
 }
 .box_portfolio img{
   height:200px;
+}
+
+/* about */
+#about h2{
+  color:white;
+  font-size: 5rem
 }
 
 /* FOOTER */
