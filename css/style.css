@@ -18,6 +18,12 @@
   max-width: 800px;
   margin: auto;
 }
+.list-inline{
+  font-size: 1.9rem;
+}
+.header_left{
+  font-size: 1.9rem;
+}
 
 /* HEADER */
 
