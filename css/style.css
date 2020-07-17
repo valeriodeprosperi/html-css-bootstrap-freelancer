@@ -193,8 +193,24 @@ width:100%
   background-color: #fff;
   border-radius: 3px;
 }
-
-
+/* contact */
+.dec_star_dark::before, .dec_star_dark::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 3px;
+  width: 100px;
+  background-color: black;
+  border-radius: 3px;
+}
+.dec_star_dark {
+  font-size: 35px;
+  margin: 15px 0;
+}
+.dec_star_dark i {
+  margin: 0 5px;
+  color: black;
+}
 
 
 /* FOOTER */
