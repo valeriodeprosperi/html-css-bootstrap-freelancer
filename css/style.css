@@ -42,6 +42,11 @@
   font-size: 1.9rem;
 }
 
+h1 {
+  font-weight: bold;
+  font-size: 60px;
+  padding: 10px 0;
+}
 
 /* HEADER */
 
@@ -103,6 +108,7 @@
   color: white;
   font-size: 2rem;
 }
+
 
 /* SECTIONS */
 
@@ -247,4 +253,8 @@ color: white;
 
 .footer_bottom{
   background-color: black;
+}
+
+.btn-success{
+  margin-top: 60px;
 }
